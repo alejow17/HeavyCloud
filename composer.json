@@ -1,0 +1,19 @@
+{
+    "name": "johanroa/heavy-cloud",
+    "description": "hola",
+    "autoload": {
+        "psr-4": {
+            "Johanroa\\HeavyCloud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Johan Roa",
+            "email": "exodiano89@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/process": "^6.3",
+        "spatie/laravel-backup": "^8.4"
+    }
+}
